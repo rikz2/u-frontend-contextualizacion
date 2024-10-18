@@ -34,27 +34,6 @@ a{
 }
 
 /* CARD PRODUCT  */
-.card-product-img{
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 300px;
-  position: relative;
-}
-
-.card-product-img::after{
-    content:"";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top:0px;left: 0px;right: 0px;bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.39);
-    transition: all 0.3s ease;
-}
-
-.card-product-img:hover::after {
-    background-color: rgba(0, 0, 0, 0);
-}
 
 .card{
     background-color: var(--bg-gray);
